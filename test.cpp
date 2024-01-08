@@ -3,6 +3,9 @@ using namespace std;
 
 int main()
 {
-  cout << "hello Trang Pham" << endl;
+  const int minutesPerHour = 60;
+  const float PI = 3.14;
+  cout << minutesPerHour << "\n";
+  cout << PI;
   return 0;
 }
