@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
 {
-  const int minutesPerHour = 60;
-  const float PI = 3.14;
-  cout << minutesPerHour << "\n";
-  cout << PI;
+  string firstName = "Trang ";
+  string lastName = "Pham";
+  string fullName = firstName + lastName;
+  cout << fullName;
   return 0;
 }
