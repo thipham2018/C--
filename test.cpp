@@ -6,6 +6,6 @@ int main()
   string firstName = "Thi ";
   string lastName = "Pham";
   string fullName = firstName.append(lastName);
-  cout << fullName;
+  cout << fullName.length();
   return 0;
 }
