@@ -3,9 +3,14 @@ using namespace std;
 
 int main()
 {
-  if (18 > 9)
+  int time = 20;
+  if (time <= 20)
   {
-    cout << "print";
+    cout << "good day";
+  }
+  else
+  {
+    cout << "evening";
   }
   return 0;
 }
