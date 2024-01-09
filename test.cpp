@@ -3,14 +3,21 @@ using namespace std;
 
 int main()
 {
-  int time = 20;
-  if (time <= 20)
+  int day = 4;
+  switch (day)
   {
-    cout << "good day";
-  }
-  else
-  {
-    cout << "evening";
+  case 1:
+    cout << "monday";
+    break;
+  case 2:
+    cout << "tuesday";
+    break;
+  case 3:
+    cout << "wednesday";
+    break;
+  case 4:
+    cout << "thursday";
+    break;
   }
   return 0;
 }
