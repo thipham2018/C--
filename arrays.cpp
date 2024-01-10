@@ -1,14 +1,10 @@
 #include <iostream>
-#include <string>
-
 using namespace std;
 
 int main()
 {
-  string cars[4] = {"volvo", "bmw", "ford", "mazda"};
-  for (int i = 0; i < 4; i++)
-  {
-    cout << cars[i] << "\n";
-  }
+  int myNumbers[5] = {10, 20, 30, 40, 50};
+  cout << sizeof(myNumbers);
   return 0;
 }
+// int have 4 bytes and the array contains 5 elements, so the number is 20
