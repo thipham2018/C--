@@ -2,19 +2,16 @@
 #include <string>
 using namespace std;
 
-// create a structure variable called myStructure
 int main()
 {
-  struct
-  {
-    int myNum;
-    string myString;
-  } myStructure;
-  // assign values to members of myStructure
-  myStructure.myNum = 1;
-  myStructure.myString = "Hello Trang";
+  string food = "Pizza"; // a string variable
+  string *ptr = &food;   // A pointer variable that stores the address of food
 
-  cout << myStructure.myNum << "\n";
-  cout << myStructure.myString << "\n";
+  // output the value of food
+  cout << food << "\n";
+  // output the memory address of food
+  cout << &food << "\n";
+  // Output the memory address of food with the pointer
+  cout << ptr << "\n";
   return 0;
 }
