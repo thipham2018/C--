@@ -1,10 +1,20 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
+// create a structure variable called myStructure
 int main()
 {
-  int myNumbers[5] = {10, 20, 30, 40, 50};
-  cout << sizeof(myNumbers);
+  struct
+  {
+    int myNum;
+    string myString;
+  } myStructure;
+  // assign values to members of myStructure
+  myStructure.myNum = 1;
+  myStructure.myString = "Hello Trang";
+
+  cout << myStructure.myNum << "\n";
+  cout << myStructure.myString << "\n";
   return 0;
 }
-// int have 4 bytes and the array contains 5 elements, so the number is 20
