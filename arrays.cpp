@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+// using function
 void myFunction()
 {
   cout << "I just got executed!\n";
